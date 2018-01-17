@@ -4,10 +4,23 @@ import (
 	"myapp/controllers"
 	"github.com/astaxie/beego"
 	"myapp/controllers/admin"
+
+	"fmt"
+	"github.com/astaxie/beego/context"
 )
+
+//验证用户是否已经登录，应用于全部的请求 过滤器
+var FilterUser = func(ctx *context.Context) {
+	_, ok := ctx.Input.Session("uid").(int)
+	fmt.Println(ok, "*****") //false表示还没有登录
+	if !ok && ctx.Request.RequestURI != "/admin/login" && ctx.Request.RequestURI != "/admin/loginafter" {
+		ctx.Redirect(302, "/admin/login") //重定向
+	}
+}
 
 func init() {
 	beego.Router("/", &controllers.MainController{})
+	beego.InsertFilter("/*", beego.BeforeRouter, FilterUser)
 	beego.Router("/admin", &admin.UseController{})
 	//beego.Router("/admin/add",&admin.AddController{})
 	//beego.Router("/admin/add", &admin.AddController{}, "get:AddGet")
