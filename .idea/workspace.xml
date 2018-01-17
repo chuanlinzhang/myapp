@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebb5c554-92fe-4321-9898-c251bd0c38e8" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/myapp.iml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/db.go" />
       <change beforePath="" afterPath="$PROJECT_DIR$/models/mongodb.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/myapp" />
       <change beforePath="$PROJECT_DIR$/conf/app.conf" afterPath="$PROJECT_DIR$/conf/app.conf" />
       <change beforePath="$PROJECT_DIR$/controllers/admin/LoginController.go" afterPath="$PROJECT_DIR$/controllers/admin/LoginController.go" />
       <change beforePath="$PROJECT_DIR$/routers/router.go" afterPath="$PROJECT_DIR$/routers/router.go" />
@@ -43,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/models/mongodb.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1296">
-              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding>
                 <element signature="e#17#78#0" expanded="true" />
               </folding>
@@ -90,7 +94,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="661" />
     <option name="y" value="30" />
     <option name="width" value="675" />
@@ -258,7 +262,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13691376" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -345,7 +349,7 @@
         <state relative-caret-position="666">
           <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
-            <element signature="e#15#60#0" expanded="true" />
+            <element signature="e#15#60#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -572,7 +576,7 @@
         <state relative-caret-position="799">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
-            <element signature="e#15#60#0" expanded="true" />
+            <element signature="e#15#60#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -604,7 +608,7 @@
     <entry file="file://$PROJECT_DIR$/models/mongodb.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1296">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding>
             <element signature="e#17#78#0" expanded="true" />
           </folding>
